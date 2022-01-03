@@ -1,0 +1,56 @@
+//  1. For the given JSON iterate over all for loops (for, for in, for of, forEach)
+let obj = {
+    "name" : "XXX",
+    "age" : 34,
+    "address" : "YYY",
+    "Dept" : "ECE",
+    "Clg" : "ZZZ"
+};
+
+// for..in loop
+for (let i in obj)
+{
+    console.log(obj[i]);
+}
+// for..of loop
+for(const[key,value] of Object.entries(obj))
+{
+    console.log(`${key} - ${value}`);
+}
+
+// forEach function()
+let obj = [{
+    "name" : "XXX",
+    "age" : 34,
+    "address" : "YYY",
+    "Dept" : "ECE",
+    "Clg" : "ZZZ"
+},
+{
+    "name" : "XXX",
+    "age" : 34,
+    "address" : "YYY",
+    "Dept" : "ECE",
+    "Clg" : "ZZZ"
+}];
+obj.forEach(myFunction);
+function myFunction(item)
+{
+    console.log(item.name+" "+item.Dept);
+}
+
+
+//  2. Create your own resume data in JSON format
+
+Resume = {
+    "name": "xxx",
+    "email": "abc@gmail",
+    "Degree": "UG in Engineering",
+    "Experience": "5+ years",
+    "Area of Interest": "Web Development",
+    "Skills set": 
+        {
+        "Primary": "HW Design",
+        "Secondary": "Programming"
+        }
+}   
