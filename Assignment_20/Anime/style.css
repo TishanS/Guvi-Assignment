@@ -1,0 +1,20 @@
+.Header{
+    padding: 10px;
+    margin: 5px;
+    background-color:rgb(197, 197, 14);
+    font-weight: bolder;
+    font-size:larger ;
+    text-align: center;
+}
+
+.body{
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(233, 175, 231);
+}
+
+.quote{
+   border: 0;
+   font-weight: bolder;
+   width:fit-content
+}
