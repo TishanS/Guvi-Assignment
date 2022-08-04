@@ -36,4 +36,4 @@ let req = new XMLHttpRequest();
      console.log(data.flags.svg)
 
     }
-     }
+ }
