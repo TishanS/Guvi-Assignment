@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: white;
+            padding: 12px;
+            border: 3px solid black;
+        }
+
+        .container {
+            background-color: white;
+            padding: 6px;
+            width: 400px
+        }
+
+        .heading {
+            color: white;
+            background-color: red;
+            padding: 2px;
+            text-align: center;
+            margin: 0px;
+            width: 330px;
+        }
+
+        input {
+            border: none;
+            border-bottom: 3px solid black;
+            text-align: center;
+            font-style: italic;
+            margin: 2px;
+        }
+
+        .notes {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <h3 class="heading">Yes! I want to subscribe to <i>Mag-O-Zine</i></h3>
+            </div>
+            <div class="notes">
+                <div>
+                    <input type="text" name="firstname" id="firstname" value="Joe"> <br>
+                    <label for="firstname">First Name</label>
+                </div>
+                <div>
+                    <input type="text" name="lastname" id="lastname" value="Schmegeggie"> <br>
+                    <label for="lastname">Last Name</label>
+                </div>
+            </div>
+
+            <div>
+                <input type="text" name="address" id="address" value="1001 Washington Street" style="width: 100%;"> <br>
+                <label for="address">Address</label>
+            </div>
+            <div class="notes">
+                <div>
+                    <input type="text" name="city" id="city" value="Awfown" style="width: 40%;"> <br>
+                    <label for="City">City</label>
+                </div>
+                <div>
+                    <input type="text" name="State" id="State" value="CA" style="width: 25%;"> <br>
+                    <label>State</label>
+                </div>
+                <div>
+                    <input type="text" name="zip" id="zip" value="99999" style="width: 35%;"> <br>
+                    <label>Zip</label>
+                </div>
+            </div>
+            <div>
+                <b style="padding:10px 5px 10px 0px;">Subscribe for:</b>
+                <b><input type="checkbox" name="Subscribefor" checked><label>1 year ($19.95)</label></b>
+                <b><input type="checkbox" name="Subscribefor"><label>2 years ($35.00)</label></b>
+            </div>
+            <div>
+                <b style="padding:10px 5px 10px 0px;">Send me more information about:</b><br>
+                <b><input type="checkbox" checked><label>Computer-Zine</label></b><br>
+                <b><input type="checkbox"><label>Fishing-Zine</label></b><br>
+                <b><input type="checkbox" checked><label>Cat-O-Zine</label></b>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
