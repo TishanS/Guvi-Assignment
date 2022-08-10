@@ -1,4 +1,4 @@
-
+//Part 1: Find the culprits and nail them — debugging javascript
 // 2)
 alert("I'm invoked!");
 
