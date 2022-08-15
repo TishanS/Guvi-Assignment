@@ -42,6 +42,9 @@ arr.map(ele=> {
 const reducer=(sum,ele)=> sum+ele;
 console.log(pop.reduce(reducer));
 console.log(pop.reduce((sum,ele)=> sum+ele));
+  
+let totalPop = arr.reduce((acc,value)=>acc+=value.population,0)
+console.log("Total Population: "+totalPop)
 
 
 //     e) Print the country which uses US Dollars as currency.
