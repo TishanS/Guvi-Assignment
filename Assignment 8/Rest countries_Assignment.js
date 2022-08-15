@@ -10,7 +10,7 @@ let req = new XMLHttpRequest();
  
 //    a) Get all the countries from Asia continent /region using Filter function
 
-Code: Sample 10 to 20 data
+Code: Sample 10 to 20 array data
 let arr = Sample Data;
 let res= arr.filter(ele => ele.region === 'Asia');
 res.map((val,index) => console.log(index+" "+val.name))
