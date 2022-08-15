@@ -57,7 +57,6 @@ arr.map(ele => {
          console.log(ele.name);
     }
  }
-);
 
 }
 
